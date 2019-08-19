@@ -1,0 +1,110 @@
+1. ls
+ananda@ananda-PC:~$ ls
+Android  Desktop    Downloads  Music     praxis  模板
+app      Documents  gradle     Pictures  Videos
+
+2. ls -al
+ananda@ananda-PC:~$ ls -al
+total 168
+drwxr-xr-x 31 ananda ananda 4096 Aug 15 11:37 .
+drwxr-xr-x  4 root   root   4096 Aug 15 01:13 ..
+drwxr-xr-x  5 ananda ananda 4096 Aug 15 06:25 .android
+drwxr-xr-x  3 ananda ananda 4096 Aug 15 06:12 Android
+drwxr-xr-x  4 ananda ananda 4096 Aug 15 06:04 .AndroidStudio3.4
+drwxr-xr-x  5 ananda ananda 4096 Aug 15 06:28 app
+-rw-------  1 ananda ananda  526 Aug 15 10:45 .bash_history
+-rw-r--r--  1 ananda ananda  220 Aug 15 00:52 .bash_logout
+-rw-r--r--  1 ananda ananda 3748 Aug 15 00:52 .bashrc
+drwxr-xr-x 10 ananda ananda 4096 Aug 15 12:23 .cache
+drwxr-xr-x 14 ananda ananda 4096 Aug 15 14:05 .config
+drwx------  3 ananda ananda 4096 Aug 15 01:00 .dbus
+drwxr-xr-x  2 ananda ananda 4096 Aug 15 00:52 Desktop
+-rw-r--r--  1 ananda ananda   25 Aug 15 01:00 .dmrc
+drwxr-xr-x  2 ananda ananda 4096 Aug 15 00:52 Documents
+drwxr-xr-x  8 ananda ananda 4096 Aug 15 05:12 Downloads
+drwx------  2 ananda ananda 4096 Aug 15 11:38 .gconf
+-rw-r--r--  1 ananda ananda  203 Aug 15 06:23 .gitignore
+drwx------  3 ananda ananda 4096 Aug 15 01:00 .gnupg
+drwxr-xr-x  3 ananda ananda 4096 Aug 15 06:23 gradle
+drwxr-xr-x  9 ananda ananda 4096 Aug 15 06:25 .gradle
+-rw-r--r--  1 ananda ananda   63 Aug 15 06:40 .gtkrc-2.0
+drwxr-xr-x  3 ananda ananda 4096 Aug 15 00:52 .icons
+drwxr-xr-x  5 ananda ananda 4096 Aug 15 06:36 .idea
+-rw-r--r--  1 ananda ananda  345 Aug 15 01:00 .imwheelrc
+drwxr-xr-x  4 ananda ananda 4096 Aug 15 06:05 .java
+drwxr-xr-x  3 ananda ananda 4096 Aug 15 00:52 .local
+drwxr-xr-x  2 ananda ananda 4096 Aug 15 00:52 Music
+drwxr-xr-x  2 ananda ananda 4096 Aug 15 00:52 Pictures
+drwx------  3 ananda ananda 4096 Aug 15 01:04 .pki
+drwxr-xr-x  3 ananda ananda 4096 Aug 15 08:43 praxis
+-rw-r--r--  1 ananda ananda  675 Aug 15 00:52 .profile
+drwxr-xr-x  2 ananda ananda 4096 Aug 15 00:52 .Public
+drwxr-xr-x  2 ananda ananda 4096 Aug 15 01:00 .Templates
+drwxr-xr-x  2 ananda ananda 4096 Aug 15 01:00 .themes
+drwxr-xr-x  2 ananda ananda 4096 Aug 15 01:00 Videos
+drwxr-xr-x  3 ananda ananda 4096 Aug 15 01:17 .vscode
+-rw-------  1 ananda ananda   54 Aug 15 11:37 .Xauthority
+drwxr-xr-x  4 ananda ananda 4096 Aug 15 01:16 .xdman
+-rw-------  1 ananda ananda 1884 Aug 15 11:37 .xsession-errors
+-rw-------  1 ananda ananda 1884 Aug 15 08:39 .xsession-errors.old
+drwxr-xr-x  2 ananda ananda 4096 Aug 15 00:52 模板
+
+3. ls -a
+ananda@ananda-PC:~$ ls -a
+.                  .cache      .gnupg      Music       .vscode
+..                 .config     gradle      Pictures    .Xauthority
+.android           .dbus       .gradle     .pki        .xdman
+Android            Desktop     .gtkrc-2.0  praxis      .xsession-errors
+.AndroidStudio3.4  .dmrc       .icons      .profile    .xsession-errors.old
+app                Documents   .idea       .Public     模板
+.bash_history      Downloads   .imwheelrc  .Templates
+.bash_logout       .gconf      .java       .themes
+.bashrc            .gitignore  .local      Videos
+
+4.
+ananda@ananda-PC:~$ cat > boba
+hiyaananda@ananda-PC:~$ cat boba
+hiyaananda@ananda-PC:~$ 
+
+5. 
+ananda@ananda-PC:~$ cat > boba2
+hoya
+ananda@ananda-PC:~$ cat boba boba2 > bubu
+ananda@ananda-PC:~$ cat bubu
+hiyahoya
+
+6.
+ananda@ananda-PC:~$ date
+Thu Aug 15 14:18:37 WIB 2019
+
+7. 
+ananda@ananda-PC:~$ ls
+Android  boba   bubu   Desktop    Downloads  Music     praxis  模板
+app      boba2  cobah  Documents  gradle     Pictures  Videos
+ananda@ananda-PC:~$ rm bubu
+ananda@ananda-PC:~$ ls
+Android  boba   cobah    Documents  gradle  Pictures  Videos
+app      boba2  Desktop  Downloads  Music   praxis    模板
+ananda@ananda-PC:~$ 
+
+8.
+ananda@ananda-PC:~$ mv boba bbaa
+ananda@ananda-PC:~$ ls
+Android  bbaa   cobah    Documents  gradle  Pictures  Videos
+app      boba2  Desktop  Downloads  Music   praxis    模板
+ananda@ananda-PC:~$ 
+
+9.
+ananda@ananda-PC:~$ mkdir yosh
+ananda@ananda-PC:~$ ls
+Android  bbaa   cobah    Documents  gradle  Pictures  Videos  模板
+app      boba2  Desktop  Downloads  Music   praxis    yosh
+
+10.ananda@ananda-PC:~$ rmdir yosh
+ananda@ananda-PC:~$ ls
+Android  bbaa   cobah    Documents  gradle  Pictures  Videos
+app      boba2  Desktop  Downloads  Music   praxis    模板
+
+
+
+

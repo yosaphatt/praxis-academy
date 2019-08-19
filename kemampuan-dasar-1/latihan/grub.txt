@@ -1,0 +1,9 @@
+Deepin 15.11 GNU/Linux 
+ = sistem operasi 
+
+Advance option Deepin 15.11 GNU/Linux (pilihan lain)
++Deepin 15.11 GNU/Linux (systemd)
+ = Salah satu tujuan penggunaan systemd adalah untuk menyatukan konfigurasi dasar dan juga service-service di antara berbagai macam distribusi Linux
+
++Deepin 15.11 GNU/Linux (recovery mode)
+= tujuan penggunaan recovery mode adalah memungkinkan untuk melakukan banyak tugas umum yang di perlukan untuk memperbaiki sistem yang rusak.

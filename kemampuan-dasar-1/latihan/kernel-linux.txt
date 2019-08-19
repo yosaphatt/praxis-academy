@@ -1,0 +1,27 @@
+kernel (usr/src/linux-headers-4.15.0-30deepin/kernel)
+
+cgroup : fitur kernel Linux yang membatasi, memperhitungkan, dan mengisolasi penggunaan sumber daya (CPU, memori, disk I / O, jaringan, dll.) dari kumpulan proses.
+
+BPF : menyediakan antarmuka mentah ke lapisan tautan data, yang memungkinkan paket lapisan tautan mentah dikirim dan diterima. Ini tersedia di sebagian besar sistem operasi mirip Unix. Selain itu, jika driver untuk antarmuka jaringan mendukung mode promiscuous, itu memungkinkan antarmuka untuk dimasukkan ke dalam mode itu sehingga semua paket di jaringan dapat diterima, bahkan yang ditujukan ke host lain.
+
+
+Debug : Opsi ini ada khusus untuk menyembunyikan opsi debugging di menuconfig.
+
+
+gcov :  analisis cakupan kode sumber dan alat profiling pernyataan demi pernyataan. gcov menghasilkan jumlah yang tepat dari berapa kali setiap pernyataan dalam suatu program dieksekusi dan membubuhi keterangan kode sumber untuk menambahkan instrumentasi
+
+irq : sinyal ke prosesor yang dipancarkan oleh perangkat keras atau perangkat lunak yang menunjukkan peristiwa yang perlu segera diperhatikan. Sebuah interupsi memberi tahu prosesor pada kondisi prioritas tinggi yang memerlukan gangguan kode saat ini yang dijalankan prosesor.
+
+livepatch : pembaruan tanpa harus mereboot
+
+locking : kebutuhan untuk menyediakan sinkronisasi dalam jalur kode tertentu di kernel.
+
+printk : fungsi  mencetak pesan dan digunakan dalam Bahasa Pemrograman C khusus untuk Kernel Linux.
+
+RCU (Read-copy-update) : mekanisme sinkronisasi dengan memungkinkan pembacaan terjadi bersamaan atau terjadi sekaligus dengan pembaruan
+
+sched : Penjadwal membuat keputusan berdasarkan pengetahuan kebijakan penjadwalan dan prioritas statis di sistem.
+
+time : ikhtisar intinya untuk waktu dan timer
+
+fitur kernel Linux yang memungkinkan Anda melacak panggilan fungsi kernel Linux.
